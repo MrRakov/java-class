@@ -33,11 +33,11 @@ public class FirefighterPage extends JFrame {
         add(btnBack);
 
         firefighters = new ArrayList<>();
-        firefighters.add(new Firefighter(35, "Bruce Flame", "Captain"));
-        firefighters.add(new Firefighter(29, "Scarlett Blaze", "Lieutenant"));
-        firefighters.add(new Firefighter(32, "Tom Inferno", "Sergeant"));
-        firefighters.add(new Firefighter(27, "Ryan Sparks", "Rookie"));
-        firefighters.add(new Firefighter(41, "Angelina Smoke", "Commander"));
+        firefighters.add(new Firefighter(35, "Wolter White", "Captain"));
+        firefighters.add(new Firefighter(29, "Jesse Pinkman", "Lieutenant"));
+        firefighters.add(new Firefighter(32, "Tom Hanks", "Sergeant"));
+        firefighters.add(new Firefighter(27, "SpiderMan", "Rookie"));
+        firefighters.add(new Firefighter(41, "Selena Gomez", "Commander"));
 
         showAll();
 

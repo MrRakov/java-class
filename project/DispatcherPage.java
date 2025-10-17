@@ -33,10 +33,10 @@ public class DispatcherPage extends JFrame {
         add(btnBack);
 
         dispatchers = new ArrayList<>();
-        dispatchers.add(new Dispatcher(40, "Samuel Beacon", 10));
-        dispatchers.add(new Dispatcher(38, "Emma Siren", 8));
-        dispatchers.add(new Dispatcher(45, "Leonardo Signal", 15));
-        dispatchers.add(new Dispatcher(33, "Keanu Alert", 6));
+        dispatchers.add(new Dispatcher(40, "Samuel Jackson", 10));
+        dispatchers.add(new Dispatcher(38, "Colonel Landa", 8));
+        dispatchers.add(new Dispatcher(45, "Gus Fring", 15));
+        dispatchers.add(new Dispatcher(33, "Tuco Salamanca", 6));
 
         showAll();
 

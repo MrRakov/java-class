@@ -47,10 +47,10 @@ public class EquipmentPage extends JFrame {
         add(btnBack);
 
         equipment = new ArrayList<>();
-        equipment.add(new Firetruck(101, "Engine Hero", 5551));
-        equipment.add(new Firetruck(102, "Rescue Fury", 5552));
-        equipment.add(new Firetruck(103, "Ladder Legend", 5553));
-        equipment.add(new Firetruck(104, "Truck Phoenix", 5554));
+        equipment.add(new Firetruck(101, "Mr.Hotwheels", 5551));
+        equipment.add(new Firetruck(102, "WroomWrooms", 5552));
+        equipment.add(new Firetruck(103, "SonOfACar", 5553));
+        equipment.add(new Firetruck(104, "supertruck", 5554));
 
         updateList();
 
