@@ -88,8 +88,6 @@ public class EquipmentPage extends JFrame {
         if (index >= 0) {
             String term = searchField.getText().toLowerCase();
             int realIndex = -1;
-
-            // если есть фильтр — ищем соответствующий элемент
             for (int i = 0; i < equipment.size(); i++) {
                 if (equipment.get(i).getEqupimentName().toLowerCase().contains(term)) {
                     realIndex++;
@@ -105,7 +103,8 @@ public class EquipmentPage extends JFrame {
             }
 
             updateList();
-            search(); // обновить фильтрованный список
+            search();
         }
     }
 }
+
