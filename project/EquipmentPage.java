@@ -3,7 +3,6 @@ import java.awt.event.*;
 import java.util.ArrayList;
 
 public class EquipmentPage extends JFrame {
-
     private ArrayList<Firetruck> equipment;
     private JTextField searchField;
     private JList<String> list;
@@ -107,4 +106,5 @@ public class EquipmentPage extends JFrame {
         }
     }
 }
+
 
