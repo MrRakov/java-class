@@ -16,7 +16,6 @@ public class MainMenu extends JFrame {
 
         JLabel title = new JLabel("Main Menu");
         title.setFont(new Font("Arial", Font.BOLD, 24));
-        title.setForeground(Color.RED);
         title.setBounds(120, 30, 300, 40);
         add(title);
 
@@ -24,7 +23,6 @@ public class MainMenu extends JFrame {
         btnDispatchers = new JButton("Manage Dispatchers");
         btnEquipment = new JButton("Manage Equipment");
         btnExit = new JButton("Exit");
-
         btnFirefighters.setBounds(100, 100, 200, 40);
         btnDispatchers.setBounds(100, 150, 200, 40);
         btnEquipment.setBounds(100, 200, 200, 40);
@@ -35,13 +33,16 @@ public class MainMenu extends JFrame {
         add(btnEquipment);
         add(btnExit);
 
+        
         btnFirefighters.addActionListener(e -> new FirefighterPage().setVisible(true));
         btnDispatchers.addActionListener(e -> new DispatcherPage().setVisible(true));
         btnEquipment.addActionListener(e -> new EquipmentPage().setVisible(true));
         btnExit.addActionListener(e -> System.exit(0));
     }
 
+    
     public static void main(String[] args) {
         new MainMenu().setVisible(true);
     }
 }
+
